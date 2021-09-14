@@ -1,0 +1,61 @@
+{
+  "name": "coins95",
+  "version": "0.1.1",
+  "authors": [
+    "Artur Bień"
+  ],
+  "description": "Cryptocurrency app",
+  "keywords": [
+    "react",
+    "styled-components",
+    "windows95",
+    "crypto",
+    "bitcoin",
+    "cryptocurrency",
+    "vaporwave"
+  ],
+  "dependencies": {
+    "array-move": "^2.1.0",
+    "axios": "^0.18.1",
+    "bl": "^5.0.0",
+    "ipfs": "^0.58.4",
+    "ipfs-http-client": "^52.0.3",
+    "it-concat": "^2.0.0",
+    "it-to-buffer": "^2.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.0",
+    "react-sortable-hoc": "^1.11.0",
+    "react95": "^3.2.0",
+    "recharts": "^1.4.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0"
+  },
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "firebase-tools": "^7.14.0",
+    "redux-devtools-extension": "^2.13.7"
+  }
+}
